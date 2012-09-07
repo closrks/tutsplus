@@ -1,7 +1,6 @@
-tutsplus
+Tutsplus
 ========
-
-A repository for tutorials
+"A repository for tutorials, courses, and small exploration"
 
 An Introduction to Node.js
 ========
