@@ -1,0 +1,16 @@
+{
+  "author": "Carlos Avila <carlosavila.ce@gmail.com>",
+  "name": "carlos-npm-example",
+  "description": "Get a list of github user repos",
+  "version": "0.0.2",
+  "repository": {
+    "url": ""
+  },
+  "main": "./my_module/github.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
