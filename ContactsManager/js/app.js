@@ -1,5 +1,22 @@
+// Filename: app.js
+define([
+    'jquery'
+  , 'underscore'
+  , 'backbone'
+  , 'router', // Request router.js
+], function($, _, Backbone, Router){
+  var initialize = function(){
+    // Pass in our Router module and call it's initialize function
+    Router.initialize();
+  }
+
+  return {
+    initialize: initialize
+  };
+});
+/*
 // fake data array
-(function ($) {
+(function (jquery) {
     var contacts = [
         { name: "Contact 1", address: "1, a street, a town, a city, AB12 3CD", tel: "0123456789", email: "anemail@me.com", type: "family" },
         { name: "Contact 2", address: "1, a street, a town, a city, AB12 3CD", tel: "0123456789", email: "anemail@me.com", type: "family" },
@@ -57,4 +74,5 @@
 
     var directory = new DirectoryView(); 
 
-} (jQuery));
+} (jquery));
+*/
