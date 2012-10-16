@@ -10,6 +10,10 @@ ContactsManager
 ========
 "In this tutorial, we look at building a full functional contacts manager using Backbone.js, Underscore.js, and jQuery. We'll take a look at the basic componenets that make Backbone tick as well as some of the convenience methods exposed by underscore"
 
+JavaScriptScreenTest
+========
+"Test knowledge of JS concepts"
+
 TDD Uncle Bob Bowling Kata
 ========
 "Create a simple bowling game while understanding and discovering TDD practices as highlighted by Uncle Bob"
