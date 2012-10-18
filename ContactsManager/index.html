@@ -7,7 +7,15 @@
 		<script data-main="js/main" src="js/libs/require/require.js"></script>
     </head>
     <body>
-        <div id="contacts"></div>
+        
+		<div id="contacts">
+			<header>
+				<div id="filter">
+					<label>Show me:</label>
+				</div>
+			</header>
+		</div>
+
 		<script id="contactTemplate" type="text/template">
 		    <img src="<%= photo %>" alt="<%= name %>" />
 		    <h1><%= name %><span><%= type %></span></h1>
@@ -17,5 +25,6 @@
 		        <dt>Email:</dt><dd><a href="mailto:<%= email %>"><%= email %></a></dd>
 		    </dl>
 		</script>
+		
     </body>
 </html>

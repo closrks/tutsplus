@@ -15,9 +15,7 @@ define([
       // Call render on the module we loaded in via the dependency array
       // 'views/directoryView'
       var directoryView = new DirectoryView();
-      directoryView.render();
     }
-
   });
 
   var initialize = function(){
