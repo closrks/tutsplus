@@ -1,4 +1,26 @@
+<<<<<<< HEAD:ContactsManagerBackboneApp/js/app.js
 (function ($) {
+=======
+// Filename: app.js
+define([
+    'jquery'
+  , 'underscore'
+  , 'backbone'
+  , 'router', // Request router.js
+], function($, _, Backbone, Router){
+  var initialize = function(){
+    // Pass in our Router module and call it's initialize function
+    Router.initialize();
+  }
+
+  return {
+    initialize: initialize
+  };
+});
+/*
+// fake data array
+(function (jquery) {
+>>>>>>> ab1d243ccd8fc00f46f486ec6916d7c3f412ce5f:ContactsManager/js/app.js
     var contacts = [
         { name: "Contact 1", address: "1, a street, a town, a city, AB12 3CD", tel: "0123456789", email: "anemail@me.com", type: "family" },
         { name: "Contact 2", address: "1, a street, a town, a city, AB12 3CD", tel: "0123456789", email: "anemail@me.com", type: "family" },
@@ -56,4 +78,5 @@
 
     var directory = new DirectoryView(); 
 
-} (jQuery));
+} (jquery));
+*/
